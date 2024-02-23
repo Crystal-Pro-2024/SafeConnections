@@ -4,8 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/minigame test.unity
+    guid: 8e5e538364ede214292842437f95f8a9
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 017ef996fdd927343ae01c5c7af6bfd0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7284dcbb5bff3114db80c2107dfd77e4, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a68ff2158d4101446964abd1af3293d7, type: 2}
   m_UseUCBPForAssetBundles: 0
